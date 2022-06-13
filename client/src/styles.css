@@ -1,3 +1,12 @@
 body {
-  background-color: #e7e7af;
+  background-color: #fcfcf5;
+}
+h2 {
+  font-size: 2rem;
+}
+.text-left {
+  margin-top: 10px;
+}
+.text-right {
+  margin-top: 10px;
 }

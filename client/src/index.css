@@ -239,13 +239,12 @@ input:focus {
   margin-left: auto;
   margin-right: auto;
 }
-.text-left {
+/* .text-left {
   margin-top: 10px;
 }
 .text-right {
   margin-top: 10px;
-  /* float: right; */
-}
+} */
 
 .need-space {
   margin-top: 30rem;
