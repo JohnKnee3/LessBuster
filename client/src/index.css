@@ -68,10 +68,6 @@ header {
 header a {
   color: #363f90;
 }
-/* .wrap-footer {
-  position: relative;
-  min-height: 100vh;
-} */
 footer {
   background-color: #eee14a;
   width: 100%;
@@ -107,6 +103,11 @@ span[role="img"] {
 }
 form {
   width: 40%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  form {
+    width: 80%;
+  }
 }
 input {
   font-size: 1rem;
@@ -205,6 +206,11 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    width: 50%;
+  }
 }
 .error-text {
   color: #e42e01;
@@ -428,13 +434,5 @@ input:focus {
   }
   .card {
     width: 50%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .card {
-    width: 50%;
-  }
-  form {
-    width: 80%;
   }
 }

@@ -92,13 +92,6 @@ header {
   }
 }
 
-// header a {
-//   color: @light;
-// }
-/* .wrap-footer {
-  position: relative;
-  min-height: 100vh;
-} */
 footer {
   background-color: @primary;
   width: 100%;
@@ -140,6 +133,9 @@ span[role="img"] {
 
 form {
   width: 40%;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 80%;
+  }
 }
 
 input {
@@ -254,6 +250,9 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 50%;
+  }
 }
 
 .error-text {
@@ -520,12 +519,12 @@ input:focus {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .card {
-    width: 50%;
-  }
+// @media screen and (min-width: 768px) and (max-width: 1023px) {
+//   // .card {
+//   //   width: 50%;
+//   // }
 
-  form {
-    width: 80%;
-  }
-}
+//   // form {
+//   //   width: 80%;
+//   // }
+// }
