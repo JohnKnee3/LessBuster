@@ -27,9 +27,12 @@ h6 {
 h1 {
   font-size: 2.25rem;
 }
-h2 {
+#mix-in {
   font-size: 2rem;
+}
+h2 {
   color: #23295f;
+  font-size: 2rem;
 }
 h3 {
   font-size: 1.75rem;
