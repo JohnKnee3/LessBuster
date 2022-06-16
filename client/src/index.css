@@ -1,7 +1,4 @@
 :root {
-  --light: #363f90;
-  --dark: #141634;
-  --error: #e42e01;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
 }
@@ -19,7 +16,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
+  color: #141634;
 }
 h2,
 h3,
@@ -70,7 +67,7 @@ header {
   background: #eee14a;
 }
 header a {
-  color: var(--light);
+  color: #363f90;
 }
 /* .wrap-footer {
   position: relative;
@@ -115,7 +112,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid #141634;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -216,7 +213,7 @@ input:focus {
   text-align: center;
 }
 .error-text {
-  color: var(--error);
+  color: #e42e01;
 }
 .logo {
   margin: 4px;
@@ -259,7 +256,7 @@ input:focus {
 .comment-time {
   font-size: 0.8rem;
   margin-bottom: 0;
-  color: var(--light);
+  color: #363f90;
 }
 .comment-text {
   font-size: 1.1rem;
@@ -274,7 +271,7 @@ input:focus {
   padding: 0.75rem;
   margin: 0.2rem 0;
   font-size: 1.2rem;
-  border: 2px solid var(--dark);
+  border: 2px solid #141634;
   border-radius: var(--border-radius);
 }
 .edit-icons,
