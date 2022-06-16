@@ -1,7 +1,8 @@
 @primary: #eee14a;
+@secondary: #383d95;
 :root {
   // --primary: #eee14a;
-  --secondary: #383d95;
+  // --secondary: #383d95;
   --tertiary: #bd7100;
   --light: #363f90;
   --dark: #141634;
@@ -98,13 +99,10 @@ header a {
 } */
 footer {
   background-color: @primary;
-  /* color: var(--secondary); */
-  /* position: absolute;
-  bottom: 0; */
   width: 100%;
 }
 .footer {
-  color: var(--secondary);
+  color: @secondary;
 }
 
 button {
@@ -117,7 +115,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: @secondary;
   color: #eee14a;
 }
 
@@ -152,7 +150,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 1px solid @secondary;
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
