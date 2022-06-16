@@ -166,13 +166,8 @@ input:focus {
   padding-bottom: calc(1rem);
 }
 .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  /* margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x)); */
   margin-top: 20rem;
 }
 .col {
@@ -268,7 +263,6 @@ input:focus {
   margin: 0.2rem 0;
   font-size: 1.2rem;
   border: 2px solid #141634;
-  border-radius: var(--border-radius);
 }
 .edit-icons,
 .delete-icons {
